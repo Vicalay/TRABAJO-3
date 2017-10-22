@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body {
+	background-color: #FF7219;
+}
+#encabezado {
+	background: #10C2C4;
+	height: 220px;
+	text-align: center;
+	background-image: url("../img/opera.gif");
+	
+	background-size: 250px 250px;
+	}
+	
+#menu {
+	height:40px;
+	position:relative;
+	top: 180 px;
+}
+ul{
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+	background-color: #CEFF18;
+}
+
+
+.piepagina{
+	width:1360px;
+	height:70px;
+	background-color:#FF0000;
+	margin-left:0px;
+}
